@@ -1,0 +1,30 @@
+﻿# 数据文件(太大,不上传)
+data/*.csv
+data/*.xlsx
+data/*.db
+*.csv
+*.xlsx
+!data/README.md
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# PyCharm
+.idea/
+*.iml
+
+# Notebook 自动生成的辅助文件
+*_files/
+
+# 环境配置
+.env
+
+# 系统文件
+Thumbs.db
+.DS_Store
+
+# 虚拟环境
+venv/
+.venv/
